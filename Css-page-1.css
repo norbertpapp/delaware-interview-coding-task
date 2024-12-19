@@ -1,0 +1,17 @@
+:root {
+    --black: #03071e;
+    --zinc-grey: #353535;
+    --evening-pink: #3d2645;
+}
+
+.property-picker__tile--black > .property-picker__tile-img {
+    background-color: var(--black);
+}
+
+.property-picker__tile--zinc-grey > .property-picker__tile-img {
+    background-color: var(--zinc-grey);
+}
+
+.property-picker__tile--evening-pink > .property-picker__tile-img {
+    background-color: var(--evening-pink);
+}
